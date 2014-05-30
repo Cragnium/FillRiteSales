@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<LINK REL="SHORTCUT ICON" HREF="../images/favicon.ico" />
+<!-- JS -->
+<script src="../js/jquery-1.6.4.min.js"></script>
+<!-- Flex Slider -->
+		<link rel="stylesheet" href="../css/flexslider.css" />
+		<script src="../js/jquery.flexslider-min.js"></script>
+<!-- ENDS Flex Slider -->
+<link rel="stylesheet" href="../css/styles.css" />
+<link rel="stylesheet" href="../css/responsive.css" media="screen and (max-width: 1030px)" />
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+</head>
+
+<body>
+<div id="main">
+	<header id="header">
+    	<div id="logo">
+    	<a href="http://www.westechequipment.com"><img src="../images/westech_logo_white_shadow.png" alt="Westech Equipment Logo" /></a>
+        </div>
+        <div id="phone">1-800-433-8831</div>
+        <div id="authorized">
+        <!-- TemplateBeginEditable name="authorized" -->
+                	
+        <!-- TemplateEndEditable -->
+		</div>
+    </header>
+    <div id="center">
+		<section id="content">
+
+            <div id="slideShow">
+            <!-- TemplateBeginEditable name="slide show" -->
+                    
+            <!-- TemplateEndEditable -->
+            </div>
+                     
+            <div id="brand">
+            
+            	<div id="brandLogo">
+                <!-- TemplateBeginEditable name="brand logo" -->
+                	
+                <!-- TemplateEndEditable -->
+                </div>
+            
+                <div id="brandInfo">
+                <!-- TemplateBeginEditable name="brand info" -->
+                	
+                <!-- TemplateEndEditable -->
+                </div>
+                
+			</div>
+            
+        </section>
+        <div id="categories">
+        <!-- TemplateBeginEditable name="categories" -->
+            
+        <!-- TemplateEndEditable -->
+        </div>
+    </div>
+    <div id="footer">
+        <!-- TemplateBeginEditable name="footer" -->
+            
+        <!-- TemplateEndEditable -->
+    </div>
+</div>
+</body>
+</html>

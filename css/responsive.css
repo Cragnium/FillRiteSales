@@ -1,0 +1,504 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width: 765px) and (max-width: 990px) {
+
+	body {
+		font-size: 11px; 
+	}
+	
+	ul {
+	margin-left: -40px;
+	}
+	
+	li {
+    color: #006150;
+	}
+	
+	#main { 
+		width: 740px;
+	}
+	
+	#header {
+		height: 69px;
+		background: url(../images/nav-bg-768.jpg) bottom left no-repeat;
+	}
+	
+	#logo {
+		width: 186px;
+		height: auto;
+		left: -11px;
+	}
+	
+	#phone {
+		width: 180px;
+		color: #FFF;
+		font-size: 22px;
+		background-size: 18px auto;
+		bottom: 6px;
+	}
+	
+	#authorized {
+		top: 0px;
+		width: 400px;
+	}
+	
+	#center {
+		background-size: 100% auto;
+	}
+	
+	#content {
+		height: 224px;
+		width: 740px;
+	}
+	
+	#brand {
+		width: 151px;
+		height: 184px;
+		padding: 39px 7px 0px 7px;
+	}
+	
+	#brandLogo {
+		width: 100%;
+		margin-bottom: 8px;
+		text-align: center;
+		font-size: 8px;
+	}
+	
+	#brandInfo {
+		width: 100%;
+		font-size: 9px;
+	}
+	
+	#slideShow {
+		width: 575px;
+		height: 224px;
+	}
+	
+	.home-slider {
+		width: 575px;
+	}
+	
+	#categories {
+		padding: 5px;
+		width: 730px;
+		height: 350px;
+		background-size: 725px auto;
+	}
+	
+	.catLink {
+		width: 137px;
+		padding: 4px;
+		height: 338px;
+	}
+	
+	.catTitle {
+		background-size: 100% auto;
+		padding: 5px 0px;
+		height: 16px;
+		width: 133px;
+		font-size: 13px;
+	}
+	
+	.catBullets {
+		width: 120;
+		padding: 5px 0px 0px 0px;
+	}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 765px) {
+
+	body {
+	font-size: 11px;
+	}
+	
+	ul {
+	margin-left: -21px;
+	}
+	
+	li {
+    color: #006150;
+	}
+	
+	.clear {
+	clear: both;
+	}
+	
+	#main { 
+	width: 560px;
+	}
+	
+	#header {
+	height: 69px;
+	background: url(../images/nav-bg-720.jpg) bottom left no-repeat;
+	}
+		
+	#logo {
+	width: 183px;
+	height: auto;
+	left: -12px;
+	}
+	
+	#phone {
+	background-color: #333;
+    background-size: 14px auto;
+	background-position: 7px;
+    bottom: -320px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 5px 10px;
+    right: 251px;
+    width: 131px;
+	}
+	
+	#authorized {
+	top: 0px;
+	width: 350px;
+	}
+	
+	#content {
+	height: 330px;
+	width: 560px;
+	background: url(../images/center-bg.jpg) left bottom no-repeat #FFF;
+	background-size: 111% auto;
+	}
+	
+	#brand {
+	width: 560px;
+	height: 115px;
+	padding: 0px;
+	}
+	
+	#brandLogo {
+	width: 120px;
+	margin: 9px;
+	text-align: center;
+	float: left;
+	font-size: 11px;
+	}
+	
+	#brandInfo {
+	width: 100%;
+	float: left;
+	width: 350px;
+	margin: 10px 20px;
+	background: transparent;
+	}
+	
+	#slideShow {
+	width: 560px;
+	height: 215px;
+	clear: both;
+	}
+	
+	.home-slider {
+	width: 560px;
+	}
+	
+	#categories {
+	padding: 5px;
+	width: 550px;
+	height: 650px;
+	background-size: 550px auto;
+	}
+	
+	.catLink {
+	width: 174px;
+	padding: 4px;
+	height: 320px;
+	}
+	
+	.catTitle {
+	background-size: 100% auto;
+	padding: 5px 0px;
+	height: 16px;
+	width: 174px;
+	font-size: 13px;
+	}
+	
+	.catBullets {
+	width: 120;
+	padding: 5px 0px 0px 0px;
+	}
+	
+	.cat3 {
+	border-bottom: 1px dotted #666;
+	border-right: none;
+	}
+	
+	.cat5 {
+	border-right: 1px dotted #666;
+	}
+	
+	.cat1, .cat2, .cat3 {
+	border-bottom: 1px dotted #666;
+	}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+
+	body {
+	font-size: 10px;
+	}
+	
+	ul {
+	margin-left: -38px;
+	}
+	
+	li {
+    color: #006150;
+	}
+	
+	.clear {
+	clear: both;
+	}
+	
+	#main { 
+	width: 440px;
+	}
+	
+	.flex-caption {
+	font-size: 12px;
+	}
+	
+	#header {
+	height: 61px;
+	background: url(../images/nav-bg-440.jpg) bottom left no-repeat;
+	}
+		
+	#logo {
+	width: 160px;
+	height: auto;
+	left: -8px;
+	}
+	
+	#phone {
+	background-color: #333;
+    background-size: 14px auto;
+	background-position: 7px;
+    bottom: -276px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0px 5px;
+    right: 150px;
+    width: 131px;
+	}
+	
+	#authorized {
+	top: 2px;
+	width: 280px;
+	}
+	
+	#content {
+	height: 285px;
+	width: 440px;
+	background: url(../images/center-bg.jpg) left bottom no-repeat #FFF;
+	background-size: 143% auto;
+	}
+	
+	#brand {
+	width: 440px;
+	height: 115px;
+	padding: 0px;
+	}
+	
+	#brandLogo {
+	width: 120px;
+	margin: 9px;
+	text-align: center;
+	float: left;
+	}
+	
+	#brandInfo {
+	width: 100%;
+	float: left;
+	width: 255px;
+	margin: 10px;
+	background: transparent;
+	}
+	
+	#slideShow {
+	width: 440px;
+	height: 169px;
+	clear: both;
+	}
+	
+	.home-slider {
+	width: 440px;
+	}
+	
+	#categories {
+	padding: 5px;
+	width: 430px;
+	height: 600px;
+	background-size: 430px auto;
+	}
+	
+	.catLink {
+	width: 134px;
+	padding: 4px;
+	height: 285px;
+	}
+	
+	.catTitle {
+	background-size: 100% auto;
+	padding: 5px 0px;
+	height: 16px;
+	width: 134px;
+	font-size: 13px;
+	}
+	
+	.catBullets {
+	width: 120;
+	padding: 5px 0px 0px 0px;
+	}
+	
+	.cat3 {
+	border-bottom: 1px dotted #666;
+	border-right: none;
+	}
+	
+	.cat5 {
+	border-right: 1px dotted #666;
+	}
+	
+	.cat1, .cat2, .cat3 {
+	border-bottom: 1px dotted #666;
+	}
+	
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+	body {
+	font-size: 10px;
+	}
+	
+	ul {
+	margin-left: -42px;
+	}
+	
+	li {
+    color: #006150;
+	}
+	
+	.clear {
+	clear: both;
+	}
+	
+	.flex-caption {
+	font-size: 12px;
+	}
+	
+	#main { 
+	width: 300px;
+	}
+	
+	#header {
+	height:75px;
+	background: url(../images/nav-bg-300.jpg) bottom left no-repeat;
+	}
+		
+	#logo {
+	width: 120px;
+	height: auto;
+	left: -8px;
+	top: 25px;
+	}
+	
+	#phone {
+	background-color: #333;
+    background-size: 14px auto;
+	background-position: 5px;
+    bottom: -248px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0px 5px;
+    right: 45px;
+    width: 131px;
+	}
+	
+	#authorized {
+	top: 0px;
+	width: 300px;
+	}
+	
+	#content {
+	height: 257px;
+	width: 300px;
+	background: url(../images/center-bg.jpg) left bottom no-repeat #FFF;
+	background-size: 159% auto;
+	}
+	
+	#brand {
+	width: 300px;
+	height: 115px;
+	padding: 0px;
+	}
+	
+	#brandLogo {
+	width: 88px;
+	margin: 9px;
+	text-align: center;
+	float: left;
+	}
+	
+	#brandInfo {
+	width: 100%;
+	float: left;
+	width: 180px;
+	margin: 7px;
+	background: transparent;
+	}
+	
+	#slideShow {
+	width: 300px;
+	height: 117px;
+	clear: both;
+	}
+	
+	.home-slider {
+	width: 300px;
+	}
+	
+	#categories {
+	padding: 5px;
+	width: 290px;
+	height: 890px;
+	background-size: 290px auto;
+	}
+	
+	.catLink {
+	width: 134px;
+	padding: 4px;
+	height: 280px;
+	}
+	
+	.catTitle {
+	background-size: 100% auto;
+	padding: 5px 0px;
+	height: 16px;
+	width: 134px;
+	font-size: 13px;
+	}
+	
+	.catBullets {
+	width: 120;
+	padding: 5px 0px 0px 0px;
+	}
+	
+	.cat2, .cat4 {
+	border-right: none;
+	}
+	
+	.cat5 {
+	border-right: 1px dotted #666;
+	}
+	
+	.cat1, .cat2, .cat3, .cat4 {
+	border-bottom: 1px dotted #666;
+	}
+	
+}

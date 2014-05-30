@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial,Helvetica,FreeSans,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+	background-color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #006150;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+ul {
+	margin-left: -38px;
+	list-style-position: inside;
+}
+
+	li {
+    color: #006150;
+	}
+
+a:hover {
+	color: #000;
+}
+
+.flex-caption a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #fff;
+}
+
+#main { 
+	width: 990px;
+	margin: 10px auto;
+}
+
+#header {
+	position: relative;
+	background: url(../images/nav-bg.jpg) bottom left no-repeat;
+	height: 90px;
+}
+
+#logo {
+	position: absolute;
+	top: 0;
+	left: -15px;
+	height: 146px;
+	width: 255px;
+	z-index: 100;
+}
+
+#phone {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 195px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 24px;
+	background: url(../images/phone.jpg) center left no-repeat;
+	text-align: right;
+}
+
+#authorized {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+}
+
+#center {
+	background: url(../images/center-bg.jpg) center top no-repeat #FFF;
+}
+
+#content {
+	height: 300px;
+	width: 990px;
+	clear: both;
+}
+
+#brand {
+	float: left;
+	width: 200px;
+	height: 230px;
+	padding: 54px 8px 0px 8px;
+}
+
+#brandLogo {
+	width: 210px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+#brandInfo {
+	width: 200px;
+}
+
+#slideShow {
+	float: right;
+	width: 770px;
+	height: 300px;
+}
+
+#categories {
+	padding: 10px 5px;
+	width: 980px;
+	height: 370px;
+	background: url(../images/categories-bg.jpg) top center no-repeat #fff;
+}
+
+.catLink {
+	float: left;
+	width: 185px;
+	padding: 5px;
+	text-align: center;
+	height: 360px;
+}
+
+.border {
+	border-right: 1px dotted #666;
+}
+
+.catTitle {
+	background: url(../images/cat-title-bg.png) no-repeat center;
+	padding: 5px 0px;
+	height: 20px;
+	width: 186px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.catBullets {
+	list-style: circle;
+	text-align: left;
+	width: 168px;
+	padding: 15px 10px 0px 10px;
+}
+
+#footer {
+	margin-top: 10px;
+	text-align: center;
+	color: #FFF;
+}
